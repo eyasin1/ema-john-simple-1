@@ -5,13 +5,15 @@ import logo from '../../images/Logo.svg';
 const Header = () => {
     return (
         <nav className='header' >
-            <img src={logo} alt="" />
+
+            <h2>CarrereHub</h2>
             <div>
-                <a href="/shop">Shop</a>
-                <a href="/order">Order</a>
-                <a href="/inventory">Inventory</a>
-                <a href="/login">Login</a>
+                <a href="/Statistics">Statistics</a>
+                <a href="/Applied Jobs">Applied Jobs</a>
+                <a href="/Blog">Blog</a>
             </div>
+
+            <button className='ApplyButton' >Start Applying</button>
         </nav>
     );
 };
